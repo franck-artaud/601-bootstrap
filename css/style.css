@@ -123,6 +123,12 @@ h6 {
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
+#green-text{
+  font-family: 'Playfair Display', serif;
+  color: #51979c !important;
+  font-size: 18px !important;
+  font-weight: 700;
+}
 
 #header {
   height: 80px;
