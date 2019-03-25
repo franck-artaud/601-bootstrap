@@ -701,7 +701,7 @@ h6 {
 #why-us .card i {
   font-size: 48px;
   padding-top: 15px;
-  color: #bfddfe;
+  color: #ffd32f;
 }
 
 #why-us .card h5 {
@@ -711,40 +711,9 @@ h6 {
 
 #why-us .card p {
   font-size: 15px;
-  color: #d8eafe;
-}
-
-#why-us .card .readmore {
-  color: #fff;
-  font-weight: 600;
-  display: inline-block;
-  transition: 0.3s ease-in-out;
-  border-bottom: #51979c solid 2px;
-}
-
-#why-us .card .readmore:hover {
-  border-bottom: #fff solid 2px;
-}
-
-#why-us .counters {
-  padding-top: 40px;
-}
-
-#why-us .counters span {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 48px;
-  display: block;
   color: #fff;
 }
 
-#why-us .counters p {
-  padding: 0;
-  margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
-  font-size: 14px;
-  color: #cce5ff;
-}
 
 /* Portfolio Section
 --------------------------------*/
@@ -997,7 +966,7 @@ h6 {
 }
 
 #team .member:hover .member-info {
-  background: rgba(0, 62, 128, 0.7);
+  background:#ffd32f;
   opacity: 1;
   transition: 0.4s;
 }
@@ -1089,8 +1058,7 @@ h6 {
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
-  overflow: hidden;
-}
+  overflow: hidden;}
 
 #contact .section-header {
   padding-bottom: 30px;
@@ -1268,7 +1236,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #ffd32f;
   color: #fff;
 }
 
@@ -1304,7 +1272,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #ffd32f;
 }
 
 #footer .footer-top .footer-contact {
