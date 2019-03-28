@@ -121,14 +121,6 @@ body {
   }
   
   
-  
- 
-  
-  
- 
-  
- 
-  
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -355,6 +347,8 @@ body {
     text-align: center;
     font-weight: 500;
     position: relative;
+    padding-top: 50px;
+    text-transform: uppercase;
   }
   
   .section-header p {
@@ -373,14 +367,6 @@ body {
     background: #ecf5ff;
   }
   
-  /* About Us Section
-  --------------------------------*/
-  
-  
- 
-  
-  /* formation Section
-  --------------------------------*/
   
   #formation {
     padding: 60px 0 40px 0;
@@ -409,7 +395,21 @@ body {
     left: -10px;
     top: calc(50% - 32px);
   }
+
+
+  #formation .icon2 {
+    position: absolute;
+    left: -10px;
+    top: calc(5% - 32px);
+  }
   
+  #formation .icon2 i {
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+
+
   #formation .icon i {
     font-size: 64px;
     line-height: 1;
