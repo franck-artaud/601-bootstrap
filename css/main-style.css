@@ -821,7 +821,7 @@ h6 {
   padding: 0;
   margin: 0;
   color: #e2effe;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -968,6 +968,31 @@ h6 {
 
 /* Contact Section
 --------------------------------*/
+.form-banner{
+  background-image:url("/img/form-img.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.text-form{
+  background-color:rgba(81,151,156, 0.8);
+  padding:20px;
+  position: relative;
+  width: 50%;
+  top:10%;
+  border-radius: 6px;
+}
+
+.text-form h3{
+ color:#fff;
+  text-transform: uppercase;
+}
+
+.text-form h4{
+  color:#fff;
+  
+ }
 
 #contact {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
@@ -1323,5 +1348,16 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .text-form{
+    background-color:rgba(81,151,156, 0.8);
+    padding:20px;
+    position: relative;
+    width: 100%;
+    top:10%;
+    border-radius: 6px;
   }
 }
