@@ -121,6 +121,55 @@ body {
   }
   
   
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+
+
+#header {
+  height: 80px;
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  padding: 20px 0;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
+}
+
+#header.header-scrolled,
+#header.header-pages {
+  height: 60px;
+  padding: 10px 0;
+}
+
+#header .logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header .logo h1 a,
+#header .logo h1 a:hover {
+  color: #51979c;
+  text-decoration: none;
+}
+
+#header .logo img {
+  padding-bottom: 10px;
+  max-height: 60px;
+}
+
+.main-pages {
+  margin-top: 60px;
+}
+
+
+
   /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -367,6 +416,8 @@ body {
     background: #ecf5ff;
   }
   
+  /* Section formation
+  --------------------------------*/
   
   #formation {
     padding: 60px 0 40px 0;
@@ -396,6 +447,12 @@ body {
     top: calc(50% - 32px);
   }
 
+  #formation .icon i {
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+
 
   #formation .icon2 {
     position: absolute;
@@ -409,8 +466,14 @@ body {
     transition: 0.5s;
   }
 
-
-  #formation .icon i {
+  #formation .icon3 {
+    position: absolute;
+    right: 20px;
+    top: calc(5% - 32px);
+    font-size: 45px;
+  }
+  
+  #formation .icon3 i {
     font-size: 64px;
     line-height: 1;
     transition: 0.5s;
@@ -453,6 +516,19 @@ body {
     line-height: 0.5rm;
   }
   
+ /* Section formation/Form
+  --------------------------------*/
+  .checktext{
+    margin-bottom: 10px;
+  }
+
+  .checktext span{
+    color: #51979c;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+
+
   /* Contact Section
   --------------------------------*/
   .form-banner{
@@ -482,8 +558,6 @@ body {
    }
   
   #contact {
-    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
-    padding: 60px 0;
     overflow: hidden;}
   
   #contact .section-header {

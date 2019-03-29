@@ -1,14 +1,7 @@
 (function ($) {
   "use strict";
 
-  // Preloader (if the #preloader div exists)
-  $(window).on('load', function () {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('slow', function () {
-        $(this).remove();
-      });
-    }
-  });
+
 
   // Back to top button
   $(window).scroll(function() {
@@ -73,7 +66,7 @@
     }
   });
 
-  // Navigation active state on scroll
+  Navigation active state on scroll
   var nav_sections = $('section');
   var main_nav = $('.main-nav, .mobile-nav');
   var main_nav_height = $('#header').outerHeight();
@@ -92,11 +85,7 @@
     });
   });
 
-  // jQuery counterUp (used in Whu Us section)
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
+  
 
   // Porfolio isotope and filter
   $(window).on('load', function () {
